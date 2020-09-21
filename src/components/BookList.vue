@@ -49,7 +49,7 @@ export default {
         }
       ],
         filters: ["bought", "borrowed"],
-        hodling: "bought"
+        holding: "bought"
     };
   },
 
