@@ -33,7 +33,9 @@ bookData: {
         bookTitle: "",
         bookAuthor: "",
         finishedReading: false,
-        ownership: []
+        ownership: [],
+        filters: ["bought", "borrowed"],
+        hodling: "bought"
       }
     };
   },
