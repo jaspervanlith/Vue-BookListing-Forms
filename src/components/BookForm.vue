@@ -4,6 +4,8 @@
     <input v-model="bookAuthor" type="text" name="author" value="" placeholder="Book Author">
     <button type="submit" name="button">Add Book</button>
   </form>
+
+
 </template>
 
 <script>
@@ -12,10 +14,12 @@ export default {
   props: ["books"],
   data() {
     return {
-      bookTitle: "",
-      bookAuthor: "",
-      finishedReading: false,
-      ownership: []
+bookData: {
+        bookTitle: "",
+        bookAuthor: "",
+        finishedReading: false,
+        ownership: []
+      }
     };
   },
   methods: {
